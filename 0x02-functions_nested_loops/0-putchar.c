@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * main - function
- * Return: 0
+ *main - this is the main code
+ *Return: return 0
  */
 int main(void)
 {
-	char x[] = "_putchar";
-	int i = 0;
+	char x[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i;
 
-	while (x[i] != '\0')
+	for (i = 0; i <= 7; i++)
 	{
 		_putchar(x[i]);
-		i++;
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
-

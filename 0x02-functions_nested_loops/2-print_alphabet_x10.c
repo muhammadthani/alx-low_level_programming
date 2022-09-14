@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - function
+ * print_alphabet_x10 - check the code
+ *
+ * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
-	int a;
-	char f;
+	char x;
+	int i;
 
-	for (a = 0; a <= 9; ++a)
+	for (i = 0; i <= 10; i++)
 	{
-		for (f = 'a'; f <= 'z'; ++f)
+		for (x = 'a'; x <= 'z'; x++)
 		{
-			_putchar(f);
+		_putchar(x);
 		}
-		{
-			_putchar('\n');
-			}
-		}
+	_putchar('\n');
+	}
 }

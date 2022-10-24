@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * print_listint - print the list of integers
